@@ -2,7 +2,7 @@
 ///Topics: Mathematic - Ad hoc Problems
 ///Problem: 4 - UVA10940 - Throwing cards away II
 ///Language: C++
-///Last reviewer: Duc Le
+///Last update & reviewed by Duc Le
 
 /*<--------------------------------------------------------------------------------------->*/
 
