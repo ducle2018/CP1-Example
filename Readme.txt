@@ -9,7 +9,8 @@ git commit -m “Note”
 
 - Sau do nhung nguoi khac neu thay bai nao van con “Submitted by … “ thi vao review code do va sua lai thanh “Reviewed by … “
 
-
+- Neu commit bang command line thi ghi vao phan "Note"
+- Neu commit bang web thi ghi vao phan "Update"
 
 Format dau code
 ///Author: 
