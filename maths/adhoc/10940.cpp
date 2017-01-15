@@ -4,7 +4,7 @@
 ///Language: C++
 ///Last update & reviewed by Duc Le
 
-/*<--------------------------------------------------------------------------------------->*/
+/*<-------------------------------------------------------------------------------------->*/
 
 ///After bruteforcing, the answer has a unique pattern
 ///You can check the pattern using the bruteForce function below
