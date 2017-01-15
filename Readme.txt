@@ -1,3 +1,6 @@
+- Upload code da AC tren UVA
+
+- Sau do vao file assignment ghi chu lai bai da lam 
 
 - Nho upload code vao dung category folder 
 
