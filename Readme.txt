@@ -3,7 +3,7 @@
 
 - Link file assignment: https://goo.gl/9Jwrmh
 
-- Moi nguoi khi commit thi ghi vao phan note “Submitted by … “
+- Moi nguoi khi commit bai moi thi ghi vao phan note (update) “Submitted by … “
 
 git commit -m “Note”
 
