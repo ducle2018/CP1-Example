@@ -1,4 +1,15 @@
-nclude <bits/stdc++.h>
+///Author: Pham Viet An
+///Topics: Mathematic - Ad hoc Problems
+///Problem: 4 - UVA10940 - Throwing cards away II
+///Language: C++
+///Last update & reviewed by Duc Le
+
+/*<--------------------------------------------------------------------------------------->*/
+
+///After bruteforcing, the answer has a unique pattern
+///You can check the pattern using the bruteForce function below
+
+#include <bits/stdc++.h>
 
 using namespace std;
 
