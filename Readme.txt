@@ -15,6 +15,12 @@ git commit -m “Note”
 - Neu commit bang command line thi ghi vao phan "Note"
 - Neu commit bang web thi ghi vao box o phia duoi
 
+- Cong viec khi review: 
+   + Kiem tra tinh dung dan cua thuat toan
+   + Kiem tra tinh chinh xac cua chuong trinh
+   + Neu mot so diem nhan (diem tot) cua cach giai
+   + Chi ra mot so diem han che co the nang cap duoc
+
 Format dau code
 ///Author: 
 ///Topics: 
