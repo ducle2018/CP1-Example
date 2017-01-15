@@ -8,7 +8,7 @@
 
 - Moi nguoi khi commit bai moi thi ghi vao phan note “Submitted by … “
 
-git commit -m “Note”
+git commit -m “Day la phan note” 
 
 - Sau do nhung nguoi khac neu thay bai nao van con “Submitted by … “ thi vao review code do va sua lai thanh “Reviewed by … “
 
