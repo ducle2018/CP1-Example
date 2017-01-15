@@ -2,3 +2,5 @@
 truoc khi commit de nhung nguoi khac biet la ban vua edit nhung gi nha!
 
 - Nho upload code vao dung category folder 
+
+- Link file assignment: https://goo.gl/9Jwrmh
