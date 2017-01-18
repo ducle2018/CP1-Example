@@ -34,7 +34,7 @@ int input()
     {
         int x, y;
         scanf("%i %i", &x, &y);
-        if (!x && !y)    break;
+        if (!x && !y)    break;   /// if x = y = 0, stop reading input
         a[++n].l = x;   a[n].r = y;
     }
 }
