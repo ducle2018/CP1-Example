@@ -30,23 +30,26 @@ bool isPerfectSquare(int n) {
 vector <int> squareEquation(int a, int b, int c) { ///solve Square Equation
     vector <int> res;
     int delta = b*b - 4*a*c;
-    if (delta < 0 || !isPerfectSquare(delta)) return res;
+    if (delta < 0 || !isPerfectSquare(delta))
+        return res; ///There are no solution
 
     delta = sqrt(delta);
-    if ((-b - delta) % (2*a) == 0) res.push_back((-b - delta) / (2*a));
-    if ((-b + delta) % (2*a) == 0 && delta != 0) res.push_back((-b + delta) / (2*a));
+    if ((-b - delta) % (2*a) == 0) ///To make sure the solution is integer
+        res.push_back((-b - delta) / (2*a));
+    if ((-b + delta) % (2*a) == 0 && delta != 0) ///To make sure the solution is integer and the solution does not repeat
+        res.push_back((-b + delta) / (2*a));
 
     return res;
 }
 
 void updateEquation(int a, int b) {
-    vector <int> solution = squareEquation(3,3*a,a*a-b);
+    vector <int> solution = squareEquation(3,3*a,a*a-b); ///Get the solution for the equation
 
-    for (int i = 0; i < (int)solution.size(); ++i) {
+    for (int i = 0; i < (int)solution.size(); ++i) { ///iterate through all solution and check
         int y = solution[i];
         int x = a+y;
-        if (x > 0 && y > 0)
-            res.push_back(ii(x,y));
+        if (x > 0 && y > 0) ///Make sure they are positive
+            res.push_back(ii(x,y)); ///Store them in in order to get the minimum y result
     }
 }
 
@@ -55,10 +58,10 @@ void solve(int n) {
     int k = sqrt(n); ///iterate through all divisors of n
     for (int i = 1; i <= k; ++i) {
         if (n%i!=0) continue;
-        int a = i, b = n/i;
-        updateEquation(a,b);
+        int a = i, b = n/i; ///Get all the possible x, y result and
+        updateEquation(a,b);  ///store them inside vector res with the following a, b
     }
-    if (res.size()==0) cout << "No solution" << endl;
+    if (res.size()==0) cout << "No solution" << endl; ///No result
     else {
         int minY = res[0].second; ///get minimum y among all results
         for (int i = 0; i < (int)res.size(); ++i)
