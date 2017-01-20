@@ -1,5 +1,5 @@
 ///Author: Pham Viet An
-///Topics: Mathematic - Ad hoc Problems
+///Topics: Mathematics - Ad hoc Problems
 ///Problem: 4 - UVA10940 - Throwing cards away II
 ///Language: C++
 ///Last update & reviewed by Duc Le
