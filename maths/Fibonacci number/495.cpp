@@ -11,7 +11,7 @@
 using namespace std;
 const int mod = 1e9;
 struct bigint{
-	int d[100000];
+	int d[150];
 	void init() {memset(d,0,sizeof(d));}
 	void init(int x) {init(); d[0] = 1; d[1] = x;}
 	void reset() {while (d[0] > 1 && d[d[0]] == 0) d[0]--; }
